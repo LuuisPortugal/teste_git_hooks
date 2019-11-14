@@ -2,6 +2,6 @@ const express = require("express");
 
 const app = express();
 
-app.get("/", (req, res) => res.send("Jesus te ama"));
+app.get("/", (req, res) => res.send("Jesus te ama e pronto"));
 
 app.listen(80);
